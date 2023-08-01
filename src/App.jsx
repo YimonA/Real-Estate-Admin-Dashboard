@@ -43,7 +43,7 @@ const App = () => {
     }
   })
   return (
-    <div>
+    <div className="">
       <ToastContainer></ToastContainer>
       <ThemeProvider theme={theme}>
         <Routes>
