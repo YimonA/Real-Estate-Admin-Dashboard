@@ -101,7 +101,7 @@ const PropertyOverview = () => {
               </TableCell>
               <TableCell>{row.orderID}</TableCell>
               <TableCell>
-                <img src={row.photo} alt="" className="w-[80px]" />
+                <img src={row.photo} alt="" className="w-[80px]" loading="lazy" />
               </TableCell>
               <TableCell>{row.property}</TableCell>
               <TableCell>{row.type}</TableCell>
