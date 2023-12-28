@@ -20,6 +20,8 @@ const Calendar = () => {
   });
 // console.log(state);
 
+//https://real-estate-dashboard-team-f.vercel.app/calendar
+
 const handleDateSelect = (selectInfo) => {
     const title = prompt("Please enter a new title for your event");
     const calendarApi = selectInfo.view.calendar;

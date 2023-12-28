@@ -14,7 +14,6 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 }));
 
 const SidebarMini = ({userInfos, minmin}) => {
-  
   const [profileState, setProfileState] = useState(true);
   const username = sessionStorage.getItem("username");
   const logoutHandler = () => {

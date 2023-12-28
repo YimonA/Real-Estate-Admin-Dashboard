@@ -4,6 +4,7 @@ import ClientCard from "../Components/ClientCard";
 import PaginationUI from "../Components/PaginationUI";
 
 const Clients = () => {
+  
   const [clients, setClients] = useState([]);
   const [pageData, setPageData] = useState([]);
   const [page, setPage] = useState(1);
@@ -14,6 +15,7 @@ const Clients = () => {
     //console.log(data);
     setClients(data);
   };
+
   console.log(clients.length);
   const handleNext = () => {
     if (page === pageCount) return page;
@@ -26,6 +28,7 @@ const Clients = () => {
     setPage(page - 1);
     window.scroll(0, 0);
   };
+
   //for data fetching
   useEffect(() => {
     fetchData();

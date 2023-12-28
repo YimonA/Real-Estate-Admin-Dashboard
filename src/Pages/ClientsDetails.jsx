@@ -16,7 +16,8 @@ const drawerWidth = 64;
 const ClientsDetails = () => {
   const location = useLocation();
   const clientData = location.state;
-  console.log(clientData);
+  console.log('cd',clientData);
+  
   return (
     <Dashboard>
       {/* home section */}

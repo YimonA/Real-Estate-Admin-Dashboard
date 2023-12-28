@@ -32,9 +32,9 @@ const PropertyListItem = () => {
   }, [property]);
 
   useEffect(() => {
-    console.log("npage", npage);
-    console.log("record", records);
-    console.log("num", numbers);
+    // console.log("npage", npage);
+    // console.log("record", records);
+    // console.log("num", numbers);
   }, [records]);
 
   const SeeAllHandler = () => {
@@ -105,7 +105,7 @@ const PropertyListItem = () => {
   };
 
   useEffect(() => {
-    console.log("Rval", rValue, "tval", tValue);
+    // console.log("Rval", rValue, "tval", tValue);
   }, [rValue, tValue]);
 
   function prevPage() {

@@ -149,9 +149,8 @@ const Home = () => {
 
       {/* chart */}
       <div className="w-full px-3 md:px-6 pt-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
-          <div className="md:col-span-12 lg:col-span-8 ">
-            <div className="bg-white p-[20px]">
+        <div className="flex items-stretch gap-5">
+            <div className="basis-2/3 bg-white p-[20px] md:col-span-12 lg:col-span-8 ">
               <div className="flex flex-col gap-2 md:flex-row md:justify-between md:items-center mb-0 md:mb-4">
                 <h1 className="uppercase text-[16px] font-semibold text-[var(--text-color)] mb-3">
                   properties stats
@@ -171,9 +170,7 @@ const Home = () => {
               </div>
               <BarChart />
             </div>
-          </div>
-
-          <div className="md:col-span-12 lg:col-span-4">
+          <div className="basis-1/3 md:col-span-12 lg:col-span-4">
             <div className="flex flex-col gap-5">
               <div className="bg-white p-[20px]">
                 <h1 className="uppercase text-[16px] font-semibold text-[var(--text-color)]"> 
